@@ -5,4 +5,8 @@ for (let i = 0; i < 10; i++) {
 
 for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
+    if (numbers[i] > 50){
+        console.log("Opération économisées : " + (9 - i));
+        break;
+    }
 }
